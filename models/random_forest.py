@@ -1,0 +1,1 @@
+# Připravit funkci využívající Random Forest metodu pro predikci poruch

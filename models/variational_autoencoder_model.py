@@ -1,0 +1,1 @@
+# Připravit funkci využívající Variational Autoencoder metodu pro predikci poruch

@@ -1,0 +1,1 @@
+# Připravit funkci využívající LSTM (Long-Short Term Memory) metodu pro predikci poruch
