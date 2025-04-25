@@ -1,0 +1,26 @@
+# Práce s databází Oracle
+oracledb>=1.3  # oficiální knihovna pro Oracle (náhrada za cx_Oracle)
+SQLAlchemy>=2.0
+
+# Datové modelování a validace
+pydantic>=2.5
+
+# Základní práce s daty
+pandas>=2.2
+numpy>=1.26
+
+# Logování a ladění
+loguru>=0.7
+
+# .env konfigurace
+python-dotenv>=1.0
+
+# vizualizace
+matplotlib
+seaborn
+
+# interaktivní testování
+jupyterlab
+
+# ML knihovny
+scikit-learn
