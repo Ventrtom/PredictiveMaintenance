@@ -8,19 +8,19 @@ def infer_base_frequency(series: pd.Series) -> str:
     """
     deltas = series.dropna().sort_values().diff().dropna().dt.total_seconds()
     if deltas.empty:
-        return '1H'  # default
+        return '1h'  # default
 
     median_delta = np.median(deltas)
     if median_delta < 60:
-        return '1T'
+        return '1t'
     elif median_delta < 300:
-        return '5T'
+        return '5t'
     elif median_delta < 1800:
-        return '15T'
+        return '15t'
     elif median_delta < 7200:
-        return '1H'
+        return '1h'
     else:
-        return '3H'
+        return '3h'
 
 def infer_best_aggregation(series: pd.Series) -> str:
     """
